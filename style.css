@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(to bottom, #2b2d2f 20%, #ffffff 80%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 30px;
+    color: #333333;
+}
+
+table[border="1"] {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: #4a5568 !important;
+}
+
+table[border="1"] th {
+    background-color: #2d3748;
+    color: #ffffff;
+}
+
+table[border="1"] td {
+    border-color: #4a5568;
+}
+
+h1, h3 {
+    color: #63b3ed;
+}
+
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+    
+    width: 250px;
+    height: 250px;
+    
+    border-radius: 50%;
+    
+    object-fit: cover;
+    
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    border: 3px solid #63b3ed;
+}
